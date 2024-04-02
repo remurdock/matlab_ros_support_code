@@ -19,7 +19,7 @@ function grip_result = pick(strategy,mat_R_T_M, mat_R_T_G)
     ops("debug")               = 0;     % If set to true visualize traj before running  
     ops("toolFlag")            = 0;     % Include rigidly attached robotiq fingers
     ops("traj_steps")          = 1;     % Num of traj steps
-    ops("z_offset")            = 0.1;   % Vertical offset for top-down approach
+    ops("z_offset")            = 0.05;   % Vertical offset for top-down approach
     ops("traj_duration")       = 2;     % Traj duration (secs)   
 
     grip_result                = -1;           % Init to failure number  
